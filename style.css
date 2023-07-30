@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: borderbox;
+}
+
+body{
+    background-image: linear-gradient(to right, black , rgba(0, 0, 255, 0.61));
+    color: white;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.banner{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.logo-oklahoma{
+    border-radius: 5px;
+}
+
+.tamanho{
+    max-width: 650px;
+    border-radius: 3px ;
+    opacity: 0.8;
+}
+
+.conteudo{
+    display: block;
+    padding: 70px;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Carter One', cursive;
+    padding: 20px;
+}
+
+.descricao{
+    font-size: 23px;
+    padding: 15px;
+    letter-spacing: 0.1em;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+picture:hover img{
+    border-bottom: 2px solid red;
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.instagram{
+    color: white;
+    padding: 20px;
+}
+
+.mapa{
+    color: white;
+    padding: 15px;
+}
